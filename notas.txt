@@ -1,0 +1,30 @@
+== Anotações de Estudo — Git e Versionamento ==
+
+Data: Abril de 2026
+
+--- Conceitos Importantes ---
+
+* Repositório (repo): pasta monitorada pelo Git
+* Commit: um "snapshot" do projeto em determinado momento
+* Branch: ramificação independente do projeto
+* Merge: unir branches
+* Remote: versão do repositório em um servidor (ex: GitHub)
+* Clone: cópia local de um repositório remoto
+* Push: enviar commits locais para o remoto
+* Pull: trazer commits do remoto para o local
+* Stage (Index): área onde ficam as mudanças prontas para commit
+
+--- Dicas ---
+
+1. Faça commits pequenos e frequentes — mais fácil de rastrear problemas
+2. Escreva mensagens de commit claras e objetivas
+3. Nunca commite arquivos de senha ou tokens no repositório
+4. Use o .gitignore para ignorar arquivos desnecessários (node_modules, .env, etc.)
+5. Antes de um push, sempre faça um pull para evitar conflitos
+
+--- .gitignore Exemplo ---
+
+node_modules/
+.env
+*.log
+dist/
