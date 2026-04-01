@@ -1,0 +1,17 @@
+== Arquivo de Exemplo para Praticar Commits ==
+
+Este arquivo existe para demonstrar como o Git rastreia alterações ao longo do tempo.
+
+Cada vez que você editar este arquivo e fizer um commit,
+o Git registrará a mudança no histórico.
+
+Tente você mesmo:
+1. Edite este arquivo adicionando uma linha
+2. Execute: git add exemplo.txt
+3. Execute: git commit -m "Atualiza exemplo.txt com nova linha"
+4. Execute: git push origin main
+5. Veja a alteração refletida no GitHub!
+
+--- Histórico de alterações deste arquivo ---
+
+[v1] Criação inicial do arquivo de exemplo
